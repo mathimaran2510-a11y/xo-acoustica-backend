@@ -4,7 +4,7 @@ import tempfile
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from predictor import predict_stress
+from app.predictor import predict_stress
 
 # ==========================================
 # FastAPI App

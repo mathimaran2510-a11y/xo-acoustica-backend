@@ -10,7 +10,7 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 
-from config import (
+from app.config import (
     TRAINING_CSV,
     MODEL_PATH,
     FEATURE_COLUMNS,

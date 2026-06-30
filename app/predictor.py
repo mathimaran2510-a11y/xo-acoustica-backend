@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 import librosa
 
-from config import MODEL_PATH
-from feature_extractor import extract_features
+from app.config import MODEL_PATH
+from app.feature_extractor import extract_features
 
 # ==========================================
 # Load Trained Model

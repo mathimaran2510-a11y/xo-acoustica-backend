@@ -3,9 +3,9 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from config import DATASET_DIR, TRAINING_CSV
-from feature_extractor import extract_features
-from label_mapper import get_emotion, get_stress_label
+from app.config import DATASET_DIR, TRAINING_CSV
+from app.feature_extractor import extract_features
+from app.label_mapper import get_emotion, get_stress_label
 
 
 def build_dataset():
