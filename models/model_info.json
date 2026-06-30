@@ -1,0 +1,12 @@
+{
+    "algorithm": "Random Forest",
+    "features": [
+        "pitch",
+        "jitter",
+        "shimmer",
+        "hnr",
+        "spectral_centroid"
+    ],
+    "cross_validation_accuracy": 67.9,
+    "test_accuracy": 68.4
+}
